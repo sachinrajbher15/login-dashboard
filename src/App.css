@@ -1,26 +1,33 @@
-body{
+body {
   background-color: blanchedalmond;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 0;
+  margin: 0;
 }
-.login-page{
+
+.login-page {
   background-color: beige;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  gap:10px;
+  gap: 10px;
   height: 500px;
   width: 500px;
+  padding: 20px;
 }
-input{
+
+input {
   width: 250px;
   height: 30px;
+  font-size: 14px;
 }
-#login-button{
+
+#login-button {
   padding: 10px 30px;
-  background-color:cadetblue;
+  background-color: cadetblue;
   border: none;
   border-radius: 5px;
   color: white;
@@ -28,18 +35,22 @@ input{
   font-size: 15px;
   cursor: pointer;
 }
+
 #login-button:hover {
   background-color: rgb(83, 113, 114);
 }
+
 #logout-button:hover {
   background-color: rgb(83, 113, 114);
 }
-h2{
+
+h2 {
   font-size: 50px;
   margin-top: 0px;
+  text-align: center;
 }
 
-.dash-container{
+.dash-container {
   background-color: white;
   width: 800px;
   height: auto;
@@ -48,49 +59,6 @@ h2{
   align-items: center;
   flex-direction: column;
   gap: 10px;
-}
-
-#add-button{
-  cursor: pointer;
-  background-color: rgb(206, 150, 110);
-  width: 150px;
-  height: 30px;
-}
-.additem-container{
-  border: 1px solid black;
-  padding: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 5px;
-}
-.additem-container button{
-  cursor: pointer;
-  border: none;
-  height: 30px;
-  width: 250px;
-}
-
-.additem-container #add{
-  background-color: rgb(75, 150, 75);
-}
-.additem-container #add:hover{
-  background-color: rgb(7, 34, 7);
-  color: white;
-}
-.additem-container #cancel{
-  background-color: rgb(190, 80, 80);
-}
-
-.additem-container #cancel:hover{
-  background-color: red;
-  color: white;
-}
-.action-container{
-  display: flex;
-  gap: 10px;
-}
-.dash-container {
   padding: 20px;
   font-family: Arial, sans-serif;
 }
@@ -179,4 +147,101 @@ table td input {
 #logout-button {
   background-color: #ff9800;
   margin-bottom: 20px;
+}
+
+/* Media Queries for Responsiveness */
+
+@media (max-width: 768px) {
+  .login-page {
+    width: 90%;
+    height: auto;
+  }
+
+  input {
+    width: 80%;
+    height: 40px;
+  }
+
+  #login-button {
+    width: 80%;
+    padding: 12px 0;
+    font-size: 14px;
+  }
+
+  h2 {
+    font-size: 36px;
+  }
+
+  .dash-container {
+    width: 100%;
+    padding: 15px;
+  }
+
+  table th, table td {
+    padding: 8px;
+  }
+
+  table td input {
+    padding: 8px;
+  }
+
+  button {
+    padding: 10px 20px;
+    font-size: 12px;
+  }
+
+  .additem-container button {
+    width: 100%;
+  }
+
+  .additem-container input {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .login-page {
+    width: 90%;
+    padding: 15px;
+  }
+
+  input {
+    width: 100%;
+  }
+
+  #login-button {
+    width: 100%;
+    padding: 14px 0;
+    font-size: 14px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  .dash-container {
+    width: 100%;
+    padding: 10px;
+  }
+
+  table {
+    font-size: 12px;
+  }
+
+  table th, table td {
+    padding: 10px;
+  }
+
+  button {
+    padding: 12px 24px;
+    font-size: 14px;
+  }
+
+  .additem-container button {
+    width: 100%;
+  }
+
+  .additem-container input {
+    width: 100%;
+  }
 }
