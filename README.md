@@ -1,6 +1,11 @@
 # login-dashboard
 This project demonstrates a login-based dashboard system with CRUD operations for managing user data. The application allows users to log in, view a dashboard, and perform actions like adding, editing, and deleting items. It uses Redux for state management and toast notifications for success and error feedback.
 
+## To access the project, please use the following credentials:
+
+Email: admin
+Password: 123
+
 ## Features
 
 - **User Authentication**: Login page that authenticates users and provides access to the dashboard.
