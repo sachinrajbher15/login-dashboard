@@ -1,0 +1,182 @@
+body{
+  background-color: blanchedalmond;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-page{
+  background-color: beige;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap:10px;
+  height: 500px;
+  width: 500px;
+}
+input{
+  width: 250px;
+  height: 30px;
+}
+#login-button{
+  padding: 10px 30px;
+  background-color:cadetblue;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bolder;
+  font-size: 15px;
+  cursor: pointer;
+}
+#login-button:hover {
+  background-color: rgb(83, 113, 114);
+}
+#logout-button:hover {
+  background-color: rgb(83, 113, 114);
+}
+h2{
+  font-size: 50px;
+  margin-top: 0px;
+}
+
+.dash-container{
+  background-color: white;
+  width: 800px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#add-button{
+  cursor: pointer;
+  background-color: rgb(206, 150, 110);
+  width: 150px;
+  height: 30px;
+}
+.additem-container{
+  border: 1px solid black;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.additem-container button{
+  cursor: pointer;
+  border: none;
+  height: 30px;
+  width: 250px;
+}
+
+.additem-container #add{
+  background-color: rgb(75, 150, 75);
+}
+.additem-container #add:hover{
+  background-color: rgb(7, 34, 7);
+  color: white;
+}
+.additem-container #cancel{
+  background-color: rgb(190, 80, 80);
+}
+
+.additem-container #cancel:hover{
+  background-color: red;
+  color: white;
+}
+.action-container{
+  display: flex;
+  gap: 10px;
+}
+.dash-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 8px 16px;
+  margin: 10px;
+  cursor: pointer;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  border: 1px solid #ddd;
+}
+
+table th,
+table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+table th {
+  background-color: #f2f2f2;
+}
+
+table td input {
+  width: 100%;
+  padding: 6px;
+  margin-top: 6px;
+  font-size: 14px;
+}
+
+.action-container button {
+  margin: 5px;
+  background-color: #008CBA;
+}
+
+#edit-button {
+  background-color: #4CAF50;
+}
+
+#delete-button {
+  background-color: #f44336;
+}
+
+.additem-container {
+  margin: 20px 0;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.additem-container input {
+  padding: 10px;
+  margin: 10px 0;
+  width: 100%;
+  font-size: 16px;
+}
+
+#add {
+  background-color: #4CAF50;
+}
+
+#cancel {
+  background-color: #f44336;
+}
+
+#logout-button {
+  background-color: #ff9800;
+  margin-bottom: 20px;
+}
